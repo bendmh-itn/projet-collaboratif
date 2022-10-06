@@ -10,6 +10,7 @@
     <h1>projet collaboratif 5TTI</h1>
     <ul>
         <li><a href="modele/index.php" target="_blank">Modèle HTML</a></li>
+        <img src="images/form.PNG" alt="formulaire HTML">
         <li>Groupe 1
             <ul>
                 <li><a href="">Jayson</a></li>

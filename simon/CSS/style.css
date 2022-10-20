@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+.coordonees {
+    width: 50%;
+    border-color: black;
+}
+
+.copie {
+    width: 50%;
+}
+
+.periodicite {
+    width: 50%;
+    border-color: black;
+}
+
+.versionpapier {
+    width: 50%;
+    border-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}

@@ -68,7 +68,7 @@
             <legend>Version papier - informatique</legend>
             <div>
                 <input type="checkbox" id="papier" name="papier" value="papier" checked>
-                <label for="hebdomadaire">Recevoir la version papier</label>
+                <label for="papier">Recevoir la version papier</label>
             </div>
             <div>
                 <input type="checkbox" id="informatique" name="informatique" value="informatique" checked>

@@ -75,7 +75,7 @@
                 <label for="informatique">Recevoir la version informatique</label>
             </div>
         </fieldset>
-        <input type="submit" value="Envoyer">
+        <button type="submit">Envoyer</button>
     </form>
 </body>
 </html>

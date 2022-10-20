@@ -8,8 +8,9 @@
     <title>Victor_Pholien</title>
 </head>
 <body>
+    <div class="containeur">
     <form action="" method="">
-        <fieldset>
+        <fieldset class="color">
             <legend>Coordonées</legend>
             <div>
                 <label for="nom"> Entrez votre nom : </label>
@@ -71,7 +72,10 @@
                 <label for="info">Recevoir la version informatique</label>
             </div>
         </fieldset>
-        <input type="submit" value="Envoyer">
+        <div class="bouton">
+            <input type="submit" value="Envoyer">
+        </div>
     </form>
+    </div>
 </body>
 </html>

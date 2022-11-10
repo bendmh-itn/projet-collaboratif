@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Louis Francken - Exercice 1 - PHP</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="flex.css">
+    <title>Formulaire simple | Journal GEEK</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flex.css">
     
 </head>
 <body>
-    <div class="divtitre flexContainer justify-content-center">
-        <h1 class="titre">Bienvenue sur le journal d'un <h1>
-        <h1 class="geek">GEEK</h1>
+    <div>
+        <a class="buttonback" href="auth.php"><img class="arro" src="../img/arro.ico" alt=""> Retourner à la page d'authentification</a>
+        <div class="divtitre flexContainer justify-content-center">
+            <h1 class="titre">Bienvenue sur le journal d'un <h1>
+            <h1 class="geek">GEEK</h1>
+        </div>
     </div>
     <form action ="">
-        <div class="cases flexContainer justify-content-center">
+        <div class="cases flexContainer justify-content-center">    
             <fieldset>
                 <legend>Vos coordonnées</legend>
                 <div>

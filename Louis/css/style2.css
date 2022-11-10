@@ -4,6 +4,7 @@ body {
     background: #1D1E24;
     color: white;
     margin: 0px;
+    cursor: url("")
 }
 
 .titre {
@@ -57,6 +58,15 @@ input {
     color: white;
 }
 
+textarea {
+    background-color: #1D1E24;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: white;
+    border-width: 0.5px;
+    color: white;
+}
+
 select {
     background-color:#1D1E24;
     border-style: solid;
@@ -75,3 +85,18 @@ select {
     color: white;
 }
 
+.arro {
+    width: 1.5%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.phonespan {
+    color: blue;
+}
+
+.pblue {
+    color: blue;
+}

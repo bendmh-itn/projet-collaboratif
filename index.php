@@ -28,6 +28,7 @@
             <ul>
                 <li><a href="">Sefedin</a></li>
                 <li><a href="">Simon</a></li>
+                <li><a href="/aymeric">Aymeric</a></li>
                 <li><a href="yasin\formulaire 1/formulaire1.php">Yasin</a></li>
                 <li><a href="Alexandre/index.php">Alexandre</a></li>
                 <li><a href="">Aymeric</a></li>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +7,29 @@
     <title>Document</title>
    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <?php 
-    echo '<h1> coucou </h1>';
-    echo '<p>hello world</p>';
-    ?>
-<fieldset>
+<body class="edensflex flex-direction align-items">
+<fieldset class="edenstext">
 <legend>Vos coordonnées</legend>
     <form >
-        <div>
-            <label>nom</label>
+        <div >
+            <label">nom</label>
             <input type="text"  name="nom" id="nom" />
         </div>
         <div>
             <label for="">prenom</label>
-            <input type="text" name="prenom" id="Prenom" />
+            <input class="edenstext" type="text" name="prenom" id="Prenom" />
         </div>
         <div>
         <label>date de naissance</label>
-        <input type="date" name="datenaissance" id="datenaissance"/>
+        <input class="edenstext" type="date" name="datenaissance" id="datenaissance"/>
         </div>
         <div>
         <label>email</label>
-        <input type="email" name="email" id="email"/>
+        <input class="edenstext" type="email" name="email" id="email"/>
         </div>
         <div>
         <label>pays</label>
-        <select name="pays" id="pays">
+        <select class="edenstext" name="pays" id="pays">
            <option value="france">belgique</option>
            <option value="espagne">Espagne</option>
            <option value="chine">Chine</option>
@@ -41,7 +37,7 @@
        </select>
         </div>
 </fieldset>
-<fieldset>
+<fieldset class="edenstext edensflex justify-content">
     <legend>periodicité</legend>
     <div>
         <input type="radio" name="newsletter" id="newsletterhebdomadaire">
@@ -54,10 +50,10 @@
     <div>
         <input type="radio" name="newsletter" id="newslettertrimestrielle">
         <label>newsletter trimestrielle</label>
-</div>
+    </div>
 </fieldset>
-<fieldset>
-<legend>version paier/informatique</legend>
+<fieldset class="edenstext edensheart">
+<legend>version papier/informatique</legend>
     <form >
         
         <div>
@@ -73,7 +69,7 @@
             <label >nombres de copies</label>
         </div>
 </fieldset>
-<input type="submit" name="submit" id="submit"> 
+<input  class="edenstext" type="submit" name="submit" id="submit"> 
 </form>
 </body>
 </html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:rgb(53, 53, 53);
+}
+fieldset{
+    color:rgb(55, 213, 241);
+    margin:5px;
+    width:20%;
+    box-shadow: 3px 3px 3px gray;
+    border-style: dotted;
+}
+form{
+    margin-top: 20px;
+}
+label{
+    color:aquamarine;
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.flexContainer{
+    display:flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+legend{
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+input{
+    box-shadow: 3px 3px 3px gray;
+}
+
+.titre{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    font-size: 23px;
+    text-decoration: underline white 4px;
+    color:rgb(102, 224, 255);
+    background-color: gray;
+    padding-top:20px;
+}
+.blocMain{
+    background-color: gray;
+    height: 100%;
+    margin:15px;
+    padding-bottom: 20%;
+}

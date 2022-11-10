@@ -30,7 +30,7 @@
                 <li><a href="">Simon</a></li>
                 <li><a href="">Yasin</a></li>
                 <li><a href="">Alexandre</a></li>
-                <li><a href="">Aymeric</a></li>
+                <li><a href="/aymeric">Aymeric</a></li>
                 <li><a href="">Victor</a></li>
                 <li><a href="">Ewan</a></li>
                 <li><a href="">Tom</a></li>

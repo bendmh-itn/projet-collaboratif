@@ -1,0 +1,33 @@
+body {
+    color: greenyellow;
+    background-color:coral;
+}
+
+fieldset {
+    border-color: burlywood;
+    border-radius: 15%;
+    border-width: 25px;
+
+}
+
+.flexContainer {
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    justify-content: space-around;
+}
+
+.buttonflex {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: greenyellow;
+    border-color: burlywood;
+    color: coral;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

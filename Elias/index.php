@@ -12,7 +12,7 @@
 
 <body>   
     <form action="">
-    <fieldset>
+    <fieldset class="flexContainer">
         <legend>Vos coordonnées</legend>
         <div>
             <label for="nom">Nom :</label>
@@ -37,7 +37,7 @@
             </select>
         </div>
     </fieldset>
-     <fieldset>
+    <fieldset class="flexContainer">
         <legend>Périodicité</legend>
         <div>
             <label for="hebdo">Newsletter hebdomadaire</label>
@@ -51,8 +51,8 @@
             <label for="trim">Newsletter trimestrielle</label>
             <input type="radio" name="trim" id="trim">
         </div>
-     </fieldset>
-     <fieldset>
+    </fieldset>
+    <fieldset class="flexContainer">
         <legend>Version papier/informatique</legend>
         <div>
             <label for="papier">Recevoir la version papier</label>
@@ -67,7 +67,9 @@
             <input type="number" name="copie" id="copie">
         </div>
     </fieldset>
-     <input type="button" value="Envoyer">
+    <div class="buttonflex">
+        <input type="button" value="Envoyer" class="button">
+    </div>
     </form>
 </body>
 

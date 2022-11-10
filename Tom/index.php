@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="" method="post">
-        <fieldset>
-            <legend>Vos coordonnées</legend>
+        <fieldset class="FlexContainer bordure">
+            <legend class="FlexContainer">Vos coordonnées</legend>
             <div>
                 <label placeholder="Décrivez une expérience pro" for="nom">Nom :</label>
                 <input type="text" id="nom">
@@ -47,7 +48,7 @@
                 <input type="number" id="copie">
             </div>
         </fieldset>
-        <fieldset>
+        <fieldset class="FlexContainer">
             <legend>Périodicité</legend>
             <div>
                 <input type="radio" name="newsletter">
@@ -62,7 +63,7 @@
                 <label for="newsletter">Newsletter trimestrielle</label>
             </div>               
         </fieldset>
-        <fieldset>
+        <fieldset class="FlexContainer">
             <legend>Version papier - informatique</legend>
                 <div>
                     <input type="checkbox"checked>
@@ -73,7 +74,7 @@
                     <label for="checkbox">Recevoir la version informatique</label>
                 </div>
         </fieldset>
-        <input type="submit" value="Envoyer">        
+        <input class="envoyer" type="submit" value="Envoyer">        
     </form>
 </body>
 </html>

@@ -1,0 +1,24 @@
+.FlexContainer{
+    display: flex;
+}
+body{
+    margin: 10%;
+     
+}
+legend {
+    background-color: #7C90DB;
+    color: #fff;
+    padding: 5px 15px;
+
+}
+input{
+    padding: 20px;
+}
+.envoyer{
+    margin-top: 20px;
+    background-color: #7C90DB;
+    color: white;
+}
+.margin-top{
+    margin-top: 150px;
+}

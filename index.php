@@ -31,7 +31,7 @@
                 <li><a href="">Yasin</a></li>
                 <li><a href="">Alexandre</a></li>
                 <li><a href="">Aymeric</a></li>
-                <li><a href=Victor/index.php>Victor</a></li>
+                <li><a href="Victor/index.php">Victor</a></li>
                 <li><a href="">Ewan</a></li>
                 <li><a href="">Tom</a></li>
                 <li><a href="">Benjamin</a></li>

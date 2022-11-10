@@ -1,0 +1,13 @@
+.flexcontainer{
+    display: flex;
+}
+fieldset{
+    width: 275px;
+}
+.justify-content{
+    justify-content: space-around
+}
+h1{
+    text-align: center;
+    
+}

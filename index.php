@@ -21,7 +21,7 @@
                 <li><a href="">Louis</a></li>
                 <li><a href="">Romane</a></li>
                 <li><a href="">Clément</a></li>
-                <li><a href="">Nathan</a></li>
+                <li><a href="nathan/index.php">Nathan</a></li>
             </ul>
         </li>
         <li>Groupe 2

@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold ;
+}
+.DT{ 
+    color: black;
+    font-size: 90px; 
+}
+.FT{
+    margin-top: 30px;
+    margin-left: 20px;
+    color:brown;
+    font-size: 80px; 
+}
+.titre{
+    background-color: rgb(185, 185, 185);
+    border: rgb(61, 27, 27) solid 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 0px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(239, 54%, 36%);
+    color: rgb(255, 255, 255);
+    width: 40%;
+    margin: 20px 30px;
+    padding: 100px 30px;
+}
+.nCopies{
+    width: 50px;
+}
+.CP{
+    display: flex;
+    justify-content: center;
+}
+.Fin{
+    display: flex;
+    justify-content: center;
+}
+legend{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    font-size: x-large;
+    font-weight: bolder ;
+}
+.Sdiv{
+    padding: 10px;
+}

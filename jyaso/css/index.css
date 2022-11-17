@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    background-color: dodgerblue;
+}
+.marg{
+    margin-bottom: 10px;
+}
+legend{
+  font-weight: bold;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-around;
+}

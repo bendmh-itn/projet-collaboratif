@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: #1D1E24;
+    color: white;
+    margin: 0px;
+    cursor: url("")
+}
+
+.titre {
+    font-family: 'Press Start 2P', cursive;
+}
+
+fieldset {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.e {
+    color: red;
+}
+
+span {
+    color: red;     
+}
+
+.buttongeek {
+    background-color: white;
+}
+
+a {
+    color: white;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.geek {
+    padding-left: 1.8%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input {
+    background-color: #1D1E24;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: white;
+    border-width: 0.5px;
+    color: white;
+}
+
+select {
+    background-color:#1D1E24;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: white;
+    border-width: 0.5px;
+    color: white;
+}
+
+#paper {
+    background-color:#1D1E24;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: white;
+    border-width: 0.5px;
+    color: white;
+}
+
+.arro {
+    width: 1.5%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+

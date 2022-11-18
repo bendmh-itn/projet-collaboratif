@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="stu.css">
+<html>
+	<header>
+		
+		<h1 id="title">Formulaire</h1>
+	</header>
+	<body>
+	<div id="form-outer">
+		<form id="survey-form">
+			<div class="rowTab"> 
+				<div class="labels">
+                    
+                    <!-- d d n & p -->
+
+					<label id="name-label" for="name">Ton nom :</label>
+				</div>
+				<div class="rightTab">
+					<input  type="text" name="name" id="name" class="input-field" required placeholder="Nom et prénom">
+				</div>
+			</div>
+
+            <div class="rowTab">
+				<div class="labels">
+                    
+                    <!--d d a-->
+
+					<label id="number-label" for="age">Ton âge :</label>
+				</div>
+				<div class="rightTab">
+					<input type="number" name="age" id="number" min="0" max="4000000" required class="input-field" placeholder="Ton âge">
+				</div>
+			</div>
+
+            <div class="rowTab">
+            <div class="labels">
+                    
+                <!--d d d n-->
+
+                <label id="number-label" for="age">T'a date de naissance :</label>
+            </div>
+            <div class="rightTab">
+                <input type="text" name="age" id="datedenaissance" class="input-field" required placeholder="JJ/MM/AAAA">
+            </div>
+        </div>
+
+			<div class="rowTab">
+				<div class="labels">
+                    
+                    <!-- d d M-->
+
+					<label id="email-label" for="email">Ton Email :</label>
+				</div>
+				<div class="rightTab">
+					<input type="email" name="email" id="email" class="input-field" required placeholder="Ton Email">
+				</div>
+			</div>
+			
+			<div class="rowTab">
+				<div class="labels">
+
+                    <!-- ch multiple-->
+
+					<label for="currentPos">Pays :</label>
+				</div>
+				<div class="rightTab">
+					<select id="dropdown" name="currentPos" class="dropdown">
+						<option value="be">Belgique</option>
+						<option value="fr">France</option>
+						<option value="su">Suisse</option>
+						<option value="Ca">Canada</option>
+						<option value="Li">Listembourg</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowTab">
+                <div class="labels">
+                    
+                    <!--ch multiple-->
+
+					<label for="userRating">Périodicité :</label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none;">
+						<li class="radio">
+							<label>hebdomadaire<input name="radio-buttons" value="1" type="radio" class="userRatings"></label>
+						</li>
+						<li class="radio">
+							<label>mensuelle<input name="radio-buttons" value="2" type="radio" class="userRatings"></label>
+						</li>
+						<li class="radio">
+							<label>trimestrielle<input name="radio-buttons" value="3" type="radio" class="userRatings"></label>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		    <div class="rowTab">
+		    	<div class="labels">
+
+                    <!--ch multiple-->
+
+		    		<label for="preferences">Version : </label>
+		    	</div>
+		    	<div class="rightTab">
+		    		<ul id="preferences" style="list-style: none;">
+		    			<li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Recevoir la version papier</label>
+		    			</li>
+		    			<li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Recevoir la version informatique</label>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+
+            <div class="rowTab">
+				<div class="labels">
+                    
+                    <!--d d nbr e-->
+
+					<label id="number-label" for="age">Nombre de copies souhaitées :</label>
+				</div>
+				<div class="rightTab">
+					<input type="number" name="age" id="number" min="0" max="4000000" class="input-field" placeholder="UwU" required>
+				</div>
+			</div>
+			
+			<button id="submit" type="submit">Envoi !</button>
+		</form>
+	</div>
+
+	</body>
+</html>

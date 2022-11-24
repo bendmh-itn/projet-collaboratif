@@ -13,14 +13,14 @@
         <img src="images/form.PNG" alt="formulaire HTML">
         <li>Groupe 1
             <ul>
-                <li><a href="">Jayson</a></li>
-                <li><a href="">Guillaume</a></li>
+                <li><a href="jyaso/index.php">Jayson</a></li>
+                <li><a href="Guillaume/index.php">Guillaume</a></li>
                 <li><a href="">Andras</a></li>
-                <li><a href="">Adam</a></li>
+                <li><a href="Adam/index.php">Adam</a></li>
                 <li><a href="Elias/index.php">Elias</a></li>
                 <li><a href="Louis/page/auth.php">Louis</a></li>
                 <li><a href="Romane/index.php">Romane</a></li>
-                <li><a href="">Clément</a></li>
+                <li><a href="Clement/index.php">Clément</a></li>
                 <li><a href="">Nathan</a></li>
             </ul>
         </li>

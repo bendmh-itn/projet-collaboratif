@@ -1,0 +1,36 @@
+.FlexContainer{
+    display: flex;
+}
+body{
+    margin-top: 30px;
+     
+}
+.bordure{
+    margin-top: 20px;
+}
+legend{
+    background-color: #7C90DB;
+    color: #fff;
+    padding: 5px 15px;
+
+}
+.envoyer{
+    margin-top: 20px;
+    background-color: #7C90DB;
+    color: white;
+}
+.margin-top{
+    margin-top: 150px;
+}
+.justify-content{
+    justify-content: center;
+
+}
+.periodicite{
+    
+}
+input{
+    padding: 2%;
+    margin-top: 4px;
+    text-align: center;
+}
